@@ -7,7 +7,7 @@ import AllProducts from "./components/AllProducts";
 import Cart from "./components/Cart";
 import axios from "axios";
 
-const API_URL = "http://localhost:3002/api/products";
+const API_URL = "https://assignment-3-swart-seven.vercel.app/api/products";
 
 function App() {
   const [products, setProducts] = useState([]);
